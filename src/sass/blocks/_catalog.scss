@@ -169,3 +169,18 @@
         }
     }
 }
+@media (max-width: 639px) {
+    .catalog {
+        padding: 20px 0;
+        &-item {
+            width: 100%;
+        }
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__tab {
+            margin: 0 2px;
+            font-size: 14px;
+        }
+    }
+}
