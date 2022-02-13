@@ -2,7 +2,7 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 100%;
+        width: 750px;
         margin: 0 auto;
     }
     .slick-prev, .slick-next  {
@@ -20,19 +20,5 @@
     .slick-next  {
         right: -66px;
         left: auto;
-    }
-    ul {
-        list-style-type: none;
-        &.slick-dots {
-            display: flex;
-            justify-content: space-around;
-            padding: 0;
-            margin-top: 20px;
-        }
-    }
-}
-@media (max-width: 639px) {
-    .carousel {
-        padding: 30px 0;
     }
 }

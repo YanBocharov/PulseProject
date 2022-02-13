@@ -1,11 +1,14 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/animate';
+
 @import 'base/variables';
 @import 'base/animations';
-@import 'base/mixins';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
-    padding: 0 20px;
     max-width: 950px;
     margin: 0 auto;
 }
